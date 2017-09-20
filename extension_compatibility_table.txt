@@ -1,0 +1,2522 @@
+$VAR1 = {
+          'alarms.Alarm' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => '48',
+                            'Opera' => 'Yes'
+                          },
+          'alarms.clear' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => '48',
+                            'Opera' => 'Yes'
+                          },
+          'alarms.clearAll' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '48',
+                               'Opera' => 'Yes'
+                             },
+          'alarms.create' => {
+                             'Chrome' => 'Yes',
+                             'Edge' => 'No',
+                             'Firefox' => '45',
+                             'Firefox for Android' => '48',
+                             'Opera' => 'Yes'
+                           },
+          'alarms.get' => {
+                          'Chrome' => 'Yes',
+                          'Edge' => 'No',
+                          'Firefox' => '45',
+                          'Firefox for Android' => '48',
+                          'Opera' => 'Yes'
+                        },
+          'alarms.getAll' => {
+                             'Chrome' => 'Yes',
+                             'Edge' => 'No',
+                             'Firefox' => '45',
+                             'Firefox for Android' => '48',
+                             'Opera' => 'Yes'
+                           },
+          'alarms.onAlarm' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'bookmarks.BookmarkTreeNode' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'bookmarks.BookmarkTreeNodeUnmodifiable' => {
+                                                      'Chrome' => 'Yes',
+                                                      'Edge' => 'No',
+                                                      'Firefox' => '45',
+                                                      'Firefox for Android' => 'No',
+                                                      'Opera' => 'Yes'
+                                                    },
+          'bookmarks.CreateDetails' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '45',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => 'Yes'
+                                     },
+          'bookmarks.create' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => '15',
+                                'Firefox' => '45',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'bookmarks.get' => {
+                             'Chrome' => 'Yes',
+                             'Edge' => 'No',
+                             'Firefox' => '45',
+                             'Firefox for Android' => 'No',
+                             'Opera' => 'Yes'
+                           },
+          'bookmarks.getChildren' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'bookmarks.getRecent' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '47',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'bookmarks.getSubTree' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'bookmarks.getTree' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => '15',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'bookmarks.move' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => '15',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'bookmarks.onChanged' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '52',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'bookmarks.onChildrenReordered' => {
+                                             'Chrome' => 'Yes',
+                                             'Edge' => 'No',
+                                             'Firefox' => 'No',
+                                             'Firefox for Android' => 'No',
+                                             'Opera' => 'Yes'
+                                           },
+          'bookmarks.onCreated' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '52',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'bookmarks.onImportBegan' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => 'No',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => 'Yes'
+                                     },
+          'bookmarks.onImportEnded' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => 'No',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => 'Yes'
+                                     },
+          'bookmarks.onMoved' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '52',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'bookmarks.onRemoved' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '52',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'bookmarks.remove' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => '15',
+                                'Firefox' => '45',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'bookmarks.removeTree' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => '15',
+                                    'Firefox' => '47',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'bookmarks.search' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '47',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'bookmarks.update' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => '15',
+                                'Firefox' => '45',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'browserAction.ColorArray' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'Yes',
+                                        'Firefox' => '45',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'browserAction.ImageDataType' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '45',
+                                           'Firefox for Android' => 'No',
+                                           'Opera' => 'Yes'
+                                         },
+          'browserAction.disable' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'browserAction.enable' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'Yes',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'browserAction.getBadgeBackgroundColor' => {
+                                                     'Chrome' => 'Yes',
+                                                     'Edge' => 'Yes',
+                                                     'Firefox' => '45',
+                                                     'Firefox for Android' => 'No',
+                                                     'Opera' => 'Yes'
+                                                   },
+          'browserAction.getBadgeText' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'browserAction.getPopup' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'browserAction.getTitle' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => '15',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '55',
+                                      'Opera' => 'Yes'
+                                    },
+          'browserAction.onClicked' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'Yes',
+                                       'Firefox' => '45',
+                                       'Firefox for Android' => '55',
+                                       'Opera' => 'Yes'
+                                     },
+          'browserAction.setBadgeBackgroundColor' => {
+                                                     'Chrome' => 'Yes',
+                                                     'Edge' => 'Yes',
+                                                     'Firefox' => '45',
+                                                     'Firefox for Android' => 'No',
+                                                     'Opera' => 'Yes'
+                                                   },
+          'browserAction.setBadgeText' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'browserAction.setIcon' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => '15'
+                                   },
+          'browserAction.setPopup' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'browserAction.setTitle' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => '15',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '55',
+                                      'Opera' => 'Yes'
+                                    },
+          'browserSettings.cacheEnabled' => {
+                                            'Chrome' => 'No',
+                                            'Edge' => 'No',
+                                            'Firefox' => '56',
+                                            'Firefox for Android' => '56',
+                                            'Opera' => 'No'
+                                          },
+          'browsingData.DataTypeSet' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '53',
+                                        'Firefox for Android' => '56',
+                                        'Opera' => 'Yes'
+                                      },
+          'browsingData.remove' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '53',
+                                   'Firefox for Android' => '57',
+                                   'Opera' => 'Yes'
+                                 },
+          'browsingData.removeCache' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '53',
+                                        'Firefox for Android' => '57',
+                                        'Opera' => 'Yes'
+                                      },
+          'browsingData.removeCookies' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '53',
+                                          'Firefox for Android' => '56',
+                                          'Opera' => 'Yes'
+                                        },
+          'browsingData.removeDownloads' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '53',
+                                            'Firefox for Android' => '57',
+                                            'Opera' => 'Yes'
+                                          },
+          'browsingData.removeFormData' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'No',
+                                           'Firefox' => '53',
+                                           'Firefox for Android' => '57',
+                                           'Opera' => 'Yes'
+                                         },
+          'browsingData.removeHistory' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '53',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'browsingData.removePasswords' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '53',
+                                            'Firefox for Android' => 'No',
+                                            'Opera' => 'Yes'
+                                          },
+          'browsingData.removePluginData' => {
+                                             'Chrome' => 'Yes',
+                                             'Edge' => 'No',
+                                             'Firefox' => '53',
+                                             'Firefox for Android' => 'No',
+                                             'Opera' => 'Yes'
+                                           },
+          'browsingData.settings' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '53',
+                                     'Firefox for Android' => '56',
+                                     'Opera' => 'Yes'
+                                   },
+          'commands.Command' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '48',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'commands.getAll' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '48',
+                               'Firefox for Android' => 'No',
+                               'Opera' => 'Yes'
+                             },
+          'commands.onCommand' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '48',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => 'Yes'
+                                },
+          'contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT' => {
+                                                        'Chrome' => 'Yes',
+                                                        'Edge' => 'Yes',
+                                                        'Firefox' => '48',
+                                                        'Firefox for Android' => 'No',
+                                                        'Opera' => 'Yes'
+                                                      },
+          'contextMenus.ContextType' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'Yes',
+                                        'Firefox' => '48',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'contextMenus.ItemType' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '48',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'contextMenus.OnClickData' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'Yes',
+                                        'Firefox' => '48',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'contextMenus.create' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '48',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'contextMenus.onClicked' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '48',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'contextMenus.remove' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '48',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'contextMenus.removeAll' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '48',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'contextMenus.update' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '48',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'contextualIdentities.ContextualIdentity' => {
+                                                       'Chrome' => 'No',
+                                                       'Edge' => 'No',
+                                                       'Firefox' => '53',
+                                                       'Firefox for Android' => '53',
+                                                       'Opera' => 'No'
+                                                     },
+          'contextualIdentities.create' => {
+                                           'Chrome' => 'No',
+                                           'Edge' => 'No',
+                                           'Firefox' => '53',
+                                           'Firefox for Android' => '53',
+                                           'Opera' => 'No'
+                                         },
+          'contextualIdentities.get' => {
+                                        'Chrome' => 'No',
+                                        'Edge' => 'No',
+                                        'Firefox' => '53',
+                                        'Firefox for Android' => '53',
+                                        'Opera' => 'No'
+                                      },
+          'contextualIdentities.query' => {
+                                          'Chrome' => 'No',
+                                          'Edge' => 'No',
+                                          'Firefox' => '53',
+                                          'Firefox for Android' => '53',
+                                          'Opera' => 'No'
+                                        },
+          'contextualIdentities.remove' => {
+                                           'Chrome' => 'No',
+                                           'Edge' => 'No',
+                                           'Firefox' => '53',
+                                           'Firefox for Android' => '53',
+                                           'Opera' => 'No'
+                                         },
+          'contextualIdentities.update' => {
+                                           'Chrome' => 'No',
+                                           'Edge' => 'No',
+                                           'Firefox' => '53',
+                                           'Firefox for Android' => '53',
+                                           'Opera' => 'No'
+                                         },
+          'cookies.Cookie' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'cookies.CookieStore' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'cookies.OnChangedCause' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'cookies.get' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '48',
+                           'Opera' => 'Yes'
+                         },
+          'cookies.getAll' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'cookies.getAllCookieStores' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => 'Yes'
+                                        },
+          'cookies.onChanged' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => 'Yes'
+                               },
+          'cookies.remove' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'cookies.set' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '48',
+                           'Opera' => 'Yes'
+                         },
+          'devtools.inspectedWindow.eval' => {
+                                             'Chrome' => 'Yes',
+                                             'Edge' => 'No',
+                                             'Firefox' => '54',
+                                             'Firefox for Android' => 'No',
+                                             'Opera' => 'Yes'
+                                           },
+          'devtools.inspectedWindow.reload' => {
+                                               'Chrome' => 'Yes',
+                                               'Edge' => 'No',
+                                               'Firefox' => '54',
+                                               'Firefox for Android' => 'No',
+                                               'Opera' => 'Yes'
+                                             },
+          'devtools.inspectedWindow.tabId' => {
+                                              'Chrome' => 'Yes',
+                                              'Edge' => 'No',
+                                              'Firefox' => '54',
+                                              'Firefox for Android' => 'No',
+                                              'Opera' => 'Yes'
+                                            },
+          'devtools.network.onNavigated' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '54',
+                                            'Firefox for Android' => 'No',
+                                            'Opera' => 'Yes'
+                                          },
+          'devtools.panels.create' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '54',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'devtools.panels.elements' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '56',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'devtools.panels.onThemeChanged' => {
+                                              'Chrome' => 'No',
+                                              'Edge' => 'No',
+                                              'Firefox' => '55',
+                                              'Firefox for Android' => 'No',
+                                              'Opera' => 'No'
+                                            },
+          'devtools.panels.themeName' => {
+                                         'Chrome' => '54',
+                                         'Edge' => 'No',
+                                         'Firefox' => '55',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => '41'
+                                       },
+          'downloads.BooleanDelta' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '47',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'downloads.DangerType' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '47',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'downloads.DoubleDelta' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '47',
+                                     'Firefox for Android' => '48',
+                                     'Opera' => 'Yes'
+                                   },
+          'downloads.DownloadItem' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '47',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'downloads.DownloadQuery' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '47',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => 'Yes'
+                                     },
+          'downloads.DownloadTime' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '47',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'downloads.FilenameConflictAction' => {
+                                                'Chrome' => 'Yes',
+                                                'Edge' => 'No',
+                                                'Firefox' => '47',
+                                                'Firefox for Android' => '48',
+                                                'Opera' => 'Yes'
+                                              },
+          'downloads.InterruptReason' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'No',
+                                         'Firefox' => '47',
+                                         'Firefox for Android' => '48',
+                                         'Opera' => 'Yes'
+                                       },
+          'downloads.State' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '47',
+                               'Firefox for Android' => '48',
+                               'Opera' => 'Yes'
+                             },
+          'downloads.StringDelta' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '47',
+                                     'Firefox for Android' => '48',
+                                     'Opera' => 'Yes'
+                                   },
+          'downloads.acceptDanger' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => 'No',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'downloads.cancel' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '48',
+                                'Firefox for Android' => '48',
+                                'Opera' => 'Yes'
+                              },
+          'downloads.download' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '47',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'downloads.drag' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => 'No',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'downloads.erase' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '48',
+                               'Firefox for Android' => '48',
+                               'Opera' => 'Yes'
+                             },
+          'downloads.getFileIcon' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => 'No',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'downloads.onChanged' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '47',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'downloads.onCreated' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '48',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'downloads.onErased' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '48',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'downloads.open' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '48',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'downloads.pause' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '48',
+                               'Firefox for Android' => '48',
+                               'Opera' => 'Yes'
+                             },
+          'downloads.removeFile' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '48',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'downloads.resume' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '48',
+                                'Firefox for Android' => '48',
+                                'Opera' => 'Yes'
+                              },
+          'downloads.search' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '47',
+                                'Firefox for Android' => '48',
+                                'Opera' => 'Yes'
+                              },
+          'downloads.setShelfEnabled' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'No',
+                                         'Firefox' => 'No',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => 'Yes'
+                                       },
+          'downloads.show' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '48',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'downloads.showDefaultFolder' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'No',
+                                           'Firefox' => '48',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => 'Yes'
+                                         },
+          'events.Event' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'Yes',
+                            'Firefox' => 'No',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'Yes'
+                          },
+          'events.Rule' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => 'No',
+                           'Firefox for Android' => 'No',
+                           'Opera' => 'Yes'
+                         },
+          'events.UrlFilter' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'Yes',
+                                'Firefox' => '50',
+                                'Firefox for Android' => '50',
+                                'Opera' => 'Yes'
+                              },
+          'extension.ViewType' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'extension.getBackgroundPage' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '45',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => 'Yes'
+                                         },
+          'extension.getExtensionTabs' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => 'No',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'No'
+                                        },
+          'extension.getURL' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'Yes',
+                                'Firefox' => '45',
+                                'Firefox for Android' => '48',
+                                'Opera' => 'Yes'
+                              },
+          'extension.getViews' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'extension.inIncognitoContext' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '45',
+                                            'Firefox for Android' => '48',
+                                            'Opera' => 'Yes'
+                                          },
+          'extension.isAllowedFileSchemeAccess' => {
+                                                   'Chrome' => 'Yes',
+                                                   'Edge' => 'No',
+                                                   'Firefox' => '48',
+                                                   'Firefox for Android' => '48',
+                                                   'Opera' => 'Yes'
+                                                 },
+          'extension.isAllowedIncognitoAccess' => {
+                                                  'Chrome' => 'Yes',
+                                                  'Edge' => 'No',
+                                                  'Firefox' => '48',
+                                                  'Firefox for Android' => '48',
+                                                  'Opera' => 'Yes'
+                                                },
+          'extension.lastError' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '47',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'extension.onRequest' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => 'No',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'extension.onRequestExternal' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'No',
+                                           'Firefox' => 'No',
+                                           'Firefox for Android' => 'No',
+                                           'Opera' => 'Yes'
+                                         },
+          'extension.sendRequest' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => 'No',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'No'
+                                   },
+          'extension.setUpdateUrlData' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => 'No',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'extensionTypes.ImageDetails' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '45',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => 'Yes'
+                                         },
+          'extensionTypes.ImageFormat' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => 'Yes'
+                                        },
+          'extensionTypes.RunAt' => {
+                                    'Chrome' => '20',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => '15'
+                                  },
+          'history.HistoryItem' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '49',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'history.TransitionType' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '50',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'history.VisitItem' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '50',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'history.addUrl' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '49',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'history.deleteAll' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '49',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'history.deleteRange' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '49',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'history.deleteUrl' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '49',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'history.getVisits' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '50',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'history.onTitleChanged' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '55',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'No'
+                                    },
+          'history.onVisitRemoved' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '50',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'history.onVisited' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '50',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'history.search' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '49',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'i18n.LanguageCode' => {
+                                 'Chrome' => '47',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => '34'
+                               },
+          'i18n.detectLanguage' => {
+                                   'Chrome' => '47',
+                                   'Edge' => 'No',
+                                   'Firefox' => '47',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => '34'
+                                 },
+          'i18n.getAcceptLanguages' => {
+                                       'Chrome' => '47',
+                                       'Edge' => 'Yes',
+                                       'Firefox' => '47',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => '34'
+                                     },
+          'i18n.getMessage' => {
+                               'Chrome' => '17',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '48',
+                               'Opera' => '15'
+                             },
+          'i18n.getUILanguage' => {
+                                  'Chrome' => '35',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '47',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'identity.getRedirectURL' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '53',
+                                       'Firefox for Android' => '53',
+                                       'Opera' => 'No'
+                                     },
+          'identity.launchWebAuthFlow' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '53',
+                                          'Firefox for Android' => '53',
+                                          'Opera' => 'Yes'
+                                        },
+          'idle.IdleState' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => 'Yes'
+                            },
+          'idle.onStateChanged' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '51',
+                                   'Firefox for Android' => '51',
+                                   'Opera' => 'Yes'
+                                 },
+          'idle.queryState' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => '15',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '48',
+                               'Opera' => 'Yes'
+                             },
+          'idle.setDetectionInterval' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => '15',
+                                         'Firefox' => '51',
+                                         'Firefox for Android' => '51',
+                                         'Opera' => 'Yes'
+                                       },
+          'management.ExtensionInfo' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '51',
+                                        'Firefox for Android' => '51',
+                                        'Opera' => 'Yes'
+                                      },
+          'management.get' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '56',
+                              'Firefox for Android' => '56',
+                              'Opera' => 'Yes'
+                            },
+          'management.getAll' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '55',
+                                 'Firefox for Android' => '55',
+                                 'Opera' => 'Yes'
+                               },
+          'management.getPermissionWarningsById' => {
+                                                    'Chrome' => 'Yes',
+                                                    'Edge' => 'No',
+                                                    'Firefox' => 'No',
+                                                    'Firefox for Android' => 'No',
+                                                    'Opera' => 'Yes'
+                                                  },
+          'management.getPermissionWarningsByManifest' => {
+                                                          'Chrome' => 'Yes',
+                                                          'Edge' => 'No',
+                                                          'Firefox' => 'No',
+                                                          'Firefox for Android' => 'No',
+                                                          'Opera' => 'Yes'
+                                                        },
+          'management.getSelf' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '51',
+                                  'Firefox for Android' => '51',
+                                  'Opera' => 'No'
+                                },
+          'management.onDisabled' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => 'No',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'management.onEnabled' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => 'No',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'management.onInstalled' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => 'No',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'management.onUninstalled' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => 'No',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'management.setEnabled' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '55',
+                                     'Firefox for Android' => '55',
+                                     'Opera' => 'Yes'
+                                   },
+          'management.uninstall' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => 'No',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'management.uninstallSelf' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '51',
+                                        'Firefox for Android' => '51',
+                                        'Opera' => 'Yes'
+                                      },
+          'notifications.NotificationOptions' => {
+                                                 'Chrome' => 'Yes',
+                                                 'Edge' => 'No',
+                                                 'Firefox' => '45',
+                                                 'Firefox for Android' => '48',
+                                                 'Opera' => 'Yes'
+                                               },
+          'notifications.TemplateType' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => 'Yes'
+                                        },
+          'notifications.clear' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'notifications.create' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'notifications.getAll' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'notifications.onButtonClicked' => {
+                                             'Chrome' => 'Yes',
+                                             'Edge' => 'No',
+                                             'Firefox' => 'No',
+                                             'Firefox for Android' => 'No',
+                                             'Opera' => 'Yes'
+                                           },
+          'notifications.onClicked' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '47',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => 'Yes'
+                                     },
+          'notifications.onClosed' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'notifications.update' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => 'No',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'omnibox.OnInputEnteredDisposition' => {
+                                                 'Chrome' => 'Yes',
+                                                 'Edge' => 'No',
+                                                 'Firefox' => '52',
+                                                 'Firefox for Android' => 'No',
+                                                 'Opera' => 'Yes'
+                                               },
+          'omnibox.SuggestResult' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '52',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'omnibox.onInputCancelled' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '52',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'omnibox.onInputChanged' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '52',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'omnibox.onInputEntered' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '52',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'omnibox.onInputStarted' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '52',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'omnibox.setDefaultSuggestion' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '52',
+                                            'Firefox for Android' => 'No',
+                                            'Opera' => 'Yes'
+                                          },
+          'pageAction.ImageDataType' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '45',
+                                        'Firefox for Android' => 'No',
+                                        'Opera' => 'Yes'
+                                      },
+          'pageAction.getPopup' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '50',
+                                   'Opera' => 'Yes'
+                                 },
+          'pageAction.getTitle' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'pageAction.hide' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '50',
+                               'Opera' => 'Yes'
+                             },
+          'pageAction.onClicked' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'Yes',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '50',
+                                    'Opera' => 'Yes'
+                                  },
+          'pageAction.setIcon' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => '15'
+                                },
+          'pageAction.setPopup' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '50',
+                                   'Opera' => 'Yes'
+                                 },
+          'pageAction.setTitle' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'pageAction.show' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '50',
+                               'Opera' => 'Yes'
+                             },
+          'permissions.Permissions' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '55',
+                                       'Firefox for Android' => '55',
+                                       'Opera' => 'Yes'
+                                     },
+          'permissions.contains' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '55',
+                                    'Firefox for Android' => '55',
+                                    'Opera' => 'Yes'
+                                  },
+          'permissions.getAll' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '55',
+                                  'Firefox for Android' => '55',
+                                  'Opera' => 'Yes'
+                                },
+          'permissions.onAdded' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => 'No',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'permissions.onRemoved' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => 'No',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'permissions.remove' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '55',
+                                  'Firefox for Android' => '55',
+                                  'Opera' => 'Yes'
+                                },
+          'permissions.request' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '55',
+                                   'Firefox for Android' => '55',
+                                   'Opera' => 'Yes'
+                                 },
+          'proxy.onProxyError' => {
+                                  'Chrome' => 'No',
+                                  'Edge' => 'No',
+                                  'Firefox' => '55',
+                                  'Firefox for Android' => '55',
+                                  'Opera' => 'No'
+                                },
+          'proxy.register' => {
+                              'Chrome' => 'No',
+                              'Edge' => 'No',
+                              'Firefox' => '55',
+                              'Firefox for Android' => '55',
+                              'Opera' => 'No'
+                            },
+          'proxy.unregister' => {
+                                'Chrome' => 'No',
+                                'Edge' => 'No',
+                                'Firefox' => '56',
+                                'Firefox for Android' => '56',
+                                'Opera' => 'No'
+                              },
+          'runtime.MessageSender' => {
+                                     'Chrome' => '26',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => '48',
+                                     'Opera' => '15'
+                                   },
+          'runtime.OnInstalledReason' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '45',
+                                         'Firefox for Android' => '48',
+                                         'Opera' => 'Yes'
+                                       },
+          'runtime.OnRestartRequiredReason' => {
+                                               'Chrome' => 'Yes',
+                                               'Edge' => 'No',
+                                               'Firefox' => '45',
+                                               'Firefox for Android' => '48',
+                                               'Opera' => 'Yes'
+                                             },
+          'runtime.PlatformArch' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'runtime.PlatformInfo' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => '48',
+                                    'Opera' => 'Yes'
+                                  },
+          'runtime.PlatformNaclArch' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'No',
+                                        'Firefox' => '45',
+                                        'Firefox for Android' => '48',
+                                        'Opera' => 'Yes'
+                                      },
+          'runtime.PlatformOs' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => '48',
+                                  'Opera' => 'Yes'
+                                },
+          'runtime.Port' => {
+                            'Chrome' => '26',
+                            'Edge' => '15',
+                            'Firefox' => '45',
+                            'Firefox for Android' => '48',
+                            'Opera' => '15'
+                          },
+          'runtime.RequestUpdateCheckStatus' => {
+                                                'Chrome' => 'Yes',
+                                                'Edge' => 'No',
+                                                'Firefox' => 'No',
+                                                'Firefox for Android' => 'No',
+                                                'Opera' => 'Yes'
+                                              },
+          'runtime.connect' => {
+                               'Chrome' => '26',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '48',
+                               'Opera' => '15'
+                             },
+          'runtime.connectNative' => {
+                                     'Chrome' => '29',
+                                     'Edge' => '15',
+                                     'Firefox' => '50',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => '16'
+                                   },
+          'runtime.getBackgroundPage' => {
+                                         'Chrome' => '22',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '45',
+                                         'Firefox for Android' => '48',
+                                         'Opera' => '15'
+                                       },
+          'runtime.getBrowserInfo' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '51',
+                                      'Firefox for Android' => '51',
+                                      'Opera' => 'No'
+                                    },
+          'runtime.getManifest' => {
+                                   'Chrome' => '22',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => '15'
+                                 },
+          'runtime.getPackageDirectoryEntry' => {
+                                                'Chrome' => '29',
+                                                'Edge' => 'No',
+                                                'Firefox' => 'No',
+                                                'Firefox for Android' => 'No',
+                                                'Opera' => '16'
+                                              },
+          'runtime.getPlatformInfo' => {
+                                       'Chrome' => '29',
+                                       'Edge' => 'No',
+                                       'Firefox' => '45',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => '16'
+                                     },
+          'runtime.getURL' => {
+                              'Chrome' => '22',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '48',
+                              'Opera' => '15'
+                            },
+          'runtime.id' => {
+                          'Chrome' => '22',
+                          'Edge' => 'Yes',
+                          'Firefox' => '45',
+                          'Firefox for Android' => '48',
+                          'Opera' => '15'
+                        },
+          'runtime.lastError' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '47',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => 'Yes'
+                               },
+          'runtime.onBrowserUpdateAvailable' => {
+                                                'Chrome' => '27',
+                                                'Edge' => 'No',
+                                                'Firefox' => 'No',
+                                                'Firefox for Android' => 'No',
+                                                'Opera' => '15'
+                                              },
+          'runtime.onConnect' => {
+                                 'Chrome' => '26',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => '15'
+                               },
+          'runtime.onConnectExternal' => {
+                                         'Chrome' => '26',
+                                         'Edge' => 'No',
+                                         'Firefox' => '54',
+                                         'Firefox for Android' => '54',
+                                         'Opera' => '15'
+                                       },
+          'runtime.onInstalled' => {
+                                   'Chrome' => '22',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '52',
+                                   'Firefox for Android' => '52',
+                                   'Opera' => '15'
+                                 },
+          'runtime.onMessage' => {
+                                 'Chrome' => '26',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => '15'
+                               },
+          'runtime.onMessageExternal' => {
+                                         'Chrome' => '26',
+                                         'Edge' => 'No',
+                                         'Firefox' => '54',
+                                         'Firefox for Android' => '54',
+                                         'Opera' => '15'
+                                       },
+          'runtime.onRestartRequired' => {
+                                         'Chrome' => '29',
+                                         'Edge' => 'No',
+                                         'Firefox' => 'No',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => '16'
+                                       },
+          'runtime.onStartup' => {
+                                 'Chrome' => '23',
+                                 'Edge' => 'No',
+                                 'Firefox' => '52',
+                                 'Firefox for Android' => '52',
+                                 'Opera' => '15'
+                               },
+          'runtime.onSuspend' => {
+                                 'Chrome' => '22',
+                                 'Edge' => 'No',
+                                 'Firefox' => 'No',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => '15'
+                               },
+          'runtime.onSuspendCanceled' => {
+                                         'Chrome' => '22',
+                                         'Edge' => 'No',
+                                         'Firefox' => 'No',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => '15'
+                                       },
+          'runtime.onUpdateAvailable' => {
+                                         'Chrome' => '25',
+                                         'Edge' => 'No',
+                                         'Firefox' => '51',
+                                         'Firefox for Android' => '51',
+                                         'Opera' => '15'
+                                       },
+          'runtime.openOptionsPage' => {
+                                       'Chrome' => '42',
+                                       'Edge' => 'No',
+                                       'Firefox' => '48',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => '29'
+                                     },
+          'runtime.reload' => {
+                              'Chrome' => '25',
+                              'Edge' => '15',
+                              'Firefox' => '51',
+                              'Firefox for Android' => '51',
+                              'Opera' => '15'
+                            },
+          'runtime.requestUpdateCheck' => {
+                                          'Chrome' => '25',
+                                          'Edge' => 'No',
+                                          'Firefox' => 'No',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => '15'
+                                        },
+          'runtime.sendMessage' => {
+                                   'Chrome' => '26',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => '15'
+                                 },
+          'runtime.sendNativeMessage' => {
+                                         'Chrome' => '29',
+                                         'Edge' => '15',
+                                         'Firefox' => '50',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => '16'
+                                       },
+          'runtime.setUninstallURL' => {
+                                       'Chrome' => '41',
+                                       'Edge' => '15',
+                                       'Firefox' => '47',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => '28'
+                                     },
+          'sessions.Filter' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '52',
+                               'Firefox for Android' => 'No',
+                               'Opera' => 'Yes'
+                             },
+          'sessions.MAX_SESSION_RESULTS' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '52',
+                                            'Firefox for Android' => 'No',
+                                            'Opera' => 'Yes'
+                                          },
+          'sessions.Session' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '52',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'sessions.getRecentlyClosed' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'No',
+                                          'Firefox' => '52',
+                                          'Firefox for Android' => 'No',
+                                          'Opera' => 'Yes'
+                                        },
+          'sessions.onChanged' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '53',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => 'Yes'
+                                },
+          'sessions.restore' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => '52',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'Yes'
+                              },
+          'sidebarAction.ImageDataType' => {
+                                           'Chrome' => 'No',
+                                           'Edge' => 'No',
+                                           'Firefox' => '54',
+                                           'Firefox for Android' => 'No',
+                                           'Opera' => 'Yes'
+                                         },
+          'sidebarAction.getPanel' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '54',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'sidebarAction.getTitle' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '54',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'sidebarAction.setIcon' => {
+                                     'Chrome' => 'No',
+                                     'Edge' => 'No',
+                                     'Firefox' => '54',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'sidebarAction.setPanel' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '54',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'sidebarAction.setTitle' => {
+                                      'Chrome' => 'No',
+                                      'Edge' => 'No',
+                                      'Firefox' => '54',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'storage.StorageArea' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '48',
+                                   'Opera' => 'Yes'
+                                 },
+          'storage.StorageChange' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => '48',
+                                     'Opera' => 'Yes'
+                                   },
+          'storage.local' => {
+                             'Chrome' => 'Yes',
+                             'Edge' => 'Yes',
+                             'Firefox' => '45',
+                             'Firefox for Android' => '48',
+                             'Opera' => 'Yes'
+                           },
+          'storage.managed' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => 'No',
+                               'Firefox for Android' => 'No',
+                               'Opera' => 'No'
+                             },
+          'storage.onChanged' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => '48',
+                                 'Opera' => 'Yes'
+                               },
+          'storage.sync' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => '15',
+                            'Firefox' => '53',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'No'
+                          },
+          'tabs.MutedInfo' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '47',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.MutedInfoReason' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '47',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'tabs.PageSettings' => {
+                                 'Chrome' => 'No',
+                                 'Edge' => 'No',
+                                 'Firefox' => '56',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'No'
+                               },
+          'tabs.TAB_ID_NONE' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'Yes',
+                                'Firefox' => '45',
+                                'Firefox for Android' => '54',
+                                'Opera' => 'Yes'
+                              },
+          'tabs.Tab' => {
+                        'Chrome' => 'Yes',
+                        'Edge' => 'Yes',
+                        'Firefox' => '45',
+                        'Firefox for Android' => '54',
+                        'Opera' => 'Yes'
+                      },
+          'tabs.TabStatus' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.WindowType' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '54',
+                               'Opera' => 'Yes'
+                             },
+          'tabs.ZoomSettings' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'tabs.ZoomSettingsMode' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'No',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => 'No',
+                                     'Opera' => 'Yes'
+                                   },
+          'tabs.ZoomSettingsScope' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'No',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'tabs.captureVisibleTab' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => '15',
+                                      'Firefox' => '47',
+                                      'Firefox for Android' => '54',
+                                      'Opera' => 'Yes'
+                                    },
+          'tabs.connect' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => '54',
+                            'Opera' => 'Yes'
+                          },
+          'tabs.create' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '54',
+                           'Opera' => 'Yes'
+                         },
+          'tabs.detectLanguage' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'tabs.duplicate' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '47',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.executeScript' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '43',
+                                  'Firefox for Android' => '54',
+                                  'Opera' => 'Yes'
+                                },
+          'tabs.get' => {
+                        'Chrome' => 'Yes',
+                        'Edge' => 'Yes',
+                        'Firefox' => '45',
+                        'Firefox for Android' => '54',
+                        'Opera' => 'Yes'
+                      },
+          'tabs.getAllInWindow' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'No',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => '54',
+                                   'Opera' => 'No'
+                                 },
+          'tabs.getCurrent' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'Yes',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '54',
+                               'Opera' => 'Yes'
+                             },
+          'tabs.getSelected' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => 'No',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'No'
+                              },
+          'tabs.getZoom' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'Yes'
+                          },
+          'tabs.getZoomSettings' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'tabs.highlight' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => 'No',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'No'
+                            },
+          'tabs.insertCSS' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '47',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.move' => {
+                         'Chrome' => 'Yes',
+                         'Edge' => 'No',
+                         'Firefox' => '46',
+                         'Firefox for Android' => 'No',
+                         'Opera' => 'Yes'
+                       },
+          'tabs.onActivated' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'Yes',
+                                'Firefox' => '45',
+                                'Firefox for Android' => '54',
+                                'Opera' => 'Yes'
+                              },
+          'tabs.onActiveChanged' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => 'No',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'No'
+                                  },
+          'tabs.onAttached' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => '15',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '54',
+                               'Opera' => 'Yes'
+                             },
+          'tabs.onCreated' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.onDetached' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => '15',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '54',
+                               'Opera' => 'Yes'
+                             },
+          'tabs.onHighlightChanged' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => 'No',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => 'No'
+                                     },
+          'tabs.onHighlighted' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'No',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => '54',
+                                  'Opera' => 'No'
+                                },
+          'tabs.onMoved' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'Yes'
+                          },
+          'tabs.onRemoved' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.onReplaced' => {
+                               'Chrome' => 'Yes',
+                               'Edge' => 'No',
+                               'Firefox' => '45',
+                               'Firefox for Android' => '54',
+                               'Opera' => 'Yes'
+                             },
+          'tabs.onSelectionChanged' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => 'No',
+                                       'Firefox for Android' => 'No',
+                                       'Opera' => 'No'
+                                     },
+          'tabs.onUpdated' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'Yes'
+                            },
+          'tabs.onZoomChange' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'tabs.print' => {
+                          'Chrome' => 'No',
+                          'Edge' => 'No',
+                          'Firefox' => '56',
+                          'Firefox for Android' => 'No',
+                          'Opera' => 'No'
+                        },
+          'tabs.printPreview' => {
+                                 'Chrome' => 'No',
+                                 'Edge' => 'No',
+                                 'Firefox' => '56',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'No'
+                               },
+          'tabs.query' => {
+                          'Chrome' => 'Yes',
+                          'Edge' => 'Yes',
+                          'Firefox' => '45',
+                          'Firefox for Android' => '54',
+                          'Opera' => 'Yes'
+                        },
+          'tabs.reload' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'No',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '54',
+                           'Opera' => 'Yes'
+                         },
+          'tabs.remove' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '54',
+                           'Opera' => 'Yes'
+                         },
+          'tabs.removeCSS' => {
+                              'Chrome' => 'No',
+                              'Edge' => 'No',
+                              'Firefox' => '49',
+                              'Firefox for Android' => '54',
+                              'Opera' => 'No'
+                            },
+          'tabs.saveAsPDF' => {
+                              'Chrome' => 'No',
+                              'Edge' => 'No',
+                              'Firefox' => '56',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'No'
+                            },
+          'tabs.sendMessage' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'Yes',
+                                'Firefox' => '45',
+                                'Firefox for Android' => '54',
+                                'Opera' => 'Yes'
+                              },
+          'tabs.sendRequest' => {
+                                'Chrome' => 'Yes',
+                                'Edge' => 'No',
+                                'Firefox' => 'No',
+                                'Firefox for Android' => 'No',
+                                'Opera' => 'No'
+                              },
+          'tabs.setZoom' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '45',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'Yes'
+                          },
+          'tabs.setZoomSettings' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '45',
+                                    'Firefox for Android' => 'No',
+                                    'Opera' => 'Yes'
+                                  },
+          'tabs.update' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => '54',
+                           'Opera' => 'Yes'
+                         },
+          'theme.Theme' => {
+                           'Chrome' => 'No',
+                           'Edge' => 'No',
+                           'Firefox' => '55',
+                           'Firefox for Android' => 'No',
+                           'Opera' => 'No'
+                         },
+          'theme.reset' => {
+                           'Chrome' => 'No',
+                           'Edge' => 'No',
+                           'Firefox' => '56',
+                           'Firefox for Android' => 'No',
+                           'Opera' => 'No'
+                         },
+          'theme.update' => {
+                            'Chrome' => 'No',
+                            'Edge' => 'No',
+                            'Firefox' => '55',
+                            'Firefox for Android' => 'No',
+                            'Opera' => 'No'
+                          },
+          'topSites.MostVisitedURL' => {
+                                       'Chrome' => 'Yes',
+                                       'Edge' => 'No',
+                                       'Firefox' => '52',
+                                       'Firefox for Android' => '52',
+                                       'Opera' => 'Yes'
+                                     },
+          'topSites.get' => {
+                            'Chrome' => 'Yes',
+                            'Edge' => 'No',
+                            'Firefox' => '52',
+                            'Firefox for Android' => '52',
+                            'Opera' => 'Yes'
+                          },
+          'types.BrowserSetting' => {
+                                    'Chrome' => 'Yes',
+                                    'Edge' => 'No',
+                                    'Firefox' => '54',
+                                    'Firefox for Android' => '54',
+                                    'Opera' => 'Yes'
+                                  },
+          'webNavigation.TransitionQualifier' => {
+                                                 'Chrome' => 'Yes',
+                                                 'Edge' => 'No',
+                                                 'Firefox' => '48',
+                                                 'Firefox for Android' => '48',
+                                                 'Opera' => '17'
+                                               },
+          'webNavigation.TransitionType' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'No',
+                                            'Firefox' => '48',
+                                            'Firefox for Android' => '48',
+                                            'Opera' => '17'
+                                          },
+          'webNavigation.getAllFrames' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '47',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => '17'
+                                        },
+          'webNavigation.getFrame' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '47',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => '17'
+                                    },
+          'webNavigation.onBeforeNavigate' => {
+                                              'Chrome' => 'Yes',
+                                              'Edge' => 'Yes',
+                                              'Firefox' => '45',
+                                              'Firefox for Android' => '48',
+                                              'Opera' => '17'
+                                            },
+          'webNavigation.onCommitted' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '45',
+                                         'Firefox for Android' => '48',
+                                         'Opera' => '17'
+                                       },
+          'webNavigation.onCompleted' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '45',
+                                         'Firefox for Android' => '48',
+                                         'Opera' => '17'
+                                       },
+          'webNavigation.onCreatedNavigationTarget' => {
+                                                       'Chrome' => 'Yes',
+                                                       'Edge' => 'Yes',
+                                                       'Firefox' => '54',
+                                                       'Firefox for Android' => '54',
+                                                       'Opera' => '17'
+                                                     },
+          'webNavigation.onDOMContentLoaded' => {
+                                                'Chrome' => 'Yes',
+                                                'Edge' => 'Yes',
+                                                'Firefox' => '45',
+                                                'Firefox for Android' => '48',
+                                                'Opera' => '17'
+                                              },
+          'webNavigation.onErrorOccurred' => {
+                                             'Chrome' => 'Yes',
+                                             'Edge' => 'Yes',
+                                             'Firefox' => '45',
+                                             'Firefox for Android' => '48',
+                                             'Opera' => '17'
+                                           },
+          'webNavigation.onHistoryStateUpdated' => {
+                                                   'Chrome' => 'Yes',
+                                                   'Edge' => 'Yes',
+                                                   'Firefox' => '47',
+                                                   'Firefox for Android' => '48',
+                                                   'Opera' => '17'
+                                                 },
+          'webNavigation.onReferenceFragmentUpdated' => {
+                                                        'Chrome' => 'Yes',
+                                                        'Edge' => 'Yes',
+                                                        'Firefox' => '45',
+                                                        'Firefox for Android' => '48',
+                                                        'Opera' => '17'
+                                                      },
+          'webNavigation.onTabReplaced' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '45',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => '17'
+                                         },
+          'webRequest.BlockingResponse' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '45',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => 'Yes'
+                                         },
+          'webRequest.HttpHeaders' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES' => {
+                                                                            'Chrome' => 'Yes',
+                                                                            'Edge' => 'No',
+                                                                            'Firefox' => '45',
+                                                                            'Firefox for Android' => '48',
+                                                                            'Opera' => 'Yes'
+                                                                          },
+          'webRequest.RequestFilter' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'Yes',
+                                        'Firefox' => '45',
+                                        'Firefox for Android' => '48',
+                                        'Opera' => 'Yes'
+                                      },
+          'webRequest.ResourceType' => {
+                                       'Chrome' => '44',
+                                       'Edge' => 'No',
+                                       'Firefox' => '45',
+                                       'Firefox for Android' => '48',
+                                       'Opera' => '31'
+                                     },
+          'webRequest.UploadData' => {
+                                     'Chrome' => 'Yes',
+                                     'Edge' => 'Yes',
+                                     'Firefox' => '45',
+                                     'Firefox for Android' => '48',
+                                     'Opera' => 'Yes'
+                                   },
+          'webRequest.handlerBehaviorChanged' => {
+                                                 'Chrome' => 'Yes',
+                                                 'Edge' => 'Yes',
+                                                 'Firefox' => '45',
+                                                 'Firefox for Android' => '48',
+                                                 'Opera' => 'Yes'
+                                               },
+          'webRequest.onAuthRequired' => {
+                                         'Chrome' => 'Yes',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '54',
+                                         'Firefox for Android' => '54',
+                                         'Opera' => 'Yes'
+                                       },
+          'webRequest.onBeforeRedirect' => {
+                                           'Chrome' => 'Yes',
+                                           'Edge' => 'Yes',
+                                           'Firefox' => '46',
+                                           'Firefox for Android' => '48',
+                                           'Opera' => 'Yes'
+                                         },
+          'webRequest.onBeforeRequest' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '46',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => 'Yes'
+                                        },
+          'webRequest.onBeforeSendHeaders' => {
+                                              'Chrome' => 'Yes',
+                                              'Edge' => 'Yes',
+                                              'Firefox' => '45',
+                                              'Firefox for Android' => '48',
+                                              'Opera' => 'Yes'
+                                            },
+          'webRequest.onCompleted' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => '48',
+                                      'Opera' => 'Yes'
+                                    },
+          'webRequest.onErrorOccurred' => {
+                                          'Chrome' => 'Yes',
+                                          'Edge' => 'Yes',
+                                          'Firefox' => '45',
+                                          'Firefox for Android' => '48',
+                                          'Opera' => 'Yes'
+                                        },
+          'webRequest.onHeadersReceived' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'Yes',
+                                            'Firefox' => '45',
+                                            'Firefox for Android' => '48',
+                                            'Opera' => 'Yes'
+                                          },
+          'webRequest.onResponseStarted' => {
+                                            'Chrome' => 'Yes',
+                                            'Edge' => 'Yes',
+                                            'Firefox' => '45',
+                                            'Firefox for Android' => '48',
+                                            'Opera' => 'Yes'
+                                          },
+          'webRequest.onSendHeaders' => {
+                                        'Chrome' => 'Yes',
+                                        'Edge' => 'Yes',
+                                        'Firefox' => '45',
+                                        'Firefox for Android' => '48',
+                                        'Opera' => 'Yes'
+                                      },
+          'windows.CreateType' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => 'Yes'
+                                },
+          'windows.WINDOW_ID_CURRENT' => {
+                                         'Chrome' => '18',
+                                         'Edge' => 'Yes',
+                                         'Firefox' => '45',
+                                         'Firefox for Android' => 'No',
+                                         'Opera' => '15'
+                                       },
+          'windows.WINDOW_ID_NONE' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'windows.Window' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'windows.WindowState' => {
+                                   'Chrome' => 'Yes',
+                                   'Edge' => 'Yes',
+                                   'Firefox' => '45',
+                                   'Firefox for Android' => 'No',
+                                   'Opera' => 'Yes'
+                                 },
+          'windows.WindowType' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => 'Yes'
+                                },
+          'windows.create' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'windows.get' => {
+                           'Chrome' => 'Yes',
+                           'Edge' => 'Yes',
+                           'Firefox' => '45',
+                           'Firefox for Android' => 'No',
+                           'Opera' => 'Yes'
+                         },
+          'windows.getAll' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'windows.getCurrent' => {
+                                  'Chrome' => 'Yes',
+                                  'Edge' => 'Yes',
+                                  'Firefox' => '45',
+                                  'Firefox for Android' => 'No',
+                                  'Opera' => 'Yes'
+                                },
+          'windows.getLastFocused' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'windows.onCreated' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'Yes',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'windows.onFocusChanged' => {
+                                      'Chrome' => 'Yes',
+                                      'Edge' => 'Yes',
+                                      'Firefox' => '45',
+                                      'Firefox for Android' => 'No',
+                                      'Opera' => 'Yes'
+                                    },
+          'windows.onRemoved' => {
+                                 'Chrome' => 'Yes',
+                                 'Edge' => 'No',
+                                 'Firefox' => '45',
+                                 'Firefox for Android' => 'No',
+                                 'Opera' => 'Yes'
+                               },
+          'windows.remove' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'No',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            },
+          'windows.update' => {
+                              'Chrome' => 'Yes',
+                              'Edge' => 'Yes',
+                              'Firefox' => '45',
+                              'Firefox for Android' => 'No',
+                              'Opera' => 'Yes'
+                            }
+        };
