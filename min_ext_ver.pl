@@ -6,6 +6,7 @@ use Readonly;
 use List::Util qw(reduce);
 use Getopt::Long qw(:config bundling no_ignore_case);
 use File::Basename;
+use File::Find;
 use Data::Dumper;
 use feature qw(say signatures);
 no warnings 'experimental::signatures';
@@ -24,6 +25,8 @@ sub main() {
     my $map = get_map($map_file);
 
     print_supported_browsers_and_exit($map) if $options{'list-browsers'};
+
+    push @ARGV, find_js_files();
 
     # {
     #   browser1 => {
@@ -121,6 +124,19 @@ sub get_map($file) {
     $map =~ s/^\$VAR1 =//;
     
     return eval $map;
+}
+
+sub find_js_files() {
+    my @js;
+    my @dirs = grep { -d } @ARGV;
+    @ARGV = grep { -f } @ARGV;
+
+    find({ wanted => sub {
+        my $f = $File::Find::name;
+        push @js, $f if -f $f && $f =~ /\.js$/;
+    }, no_chdir => 1 }, @dirs);
+
+    return @js;
 }
 
 sub create_min_ver_hash($map) {
