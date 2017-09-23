@@ -7,6 +7,8 @@ use List::Util qw(reduce);
 use Getopt::Long qw(:config bundling no_ignore_case);
 use File::Basename;
 use File::Find;
+use English;
+use Cwd qw(abs_path);
 use Data::Dumper;
 use feature qw(say signatures);
 no warnings 'experimental::signatures';
@@ -15,6 +17,8 @@ Readonly::Scalar my $VERSION => '0.1.0';
 Readonly::Scalar my $DEFAULT_MAP_FILE => 'extension_compatibility_table.txt';
 Readonly::Scalar my $YES => 'Yes';
 Readonly::Scalar my $NO => 'No';
+Readonly::Scalar my $VERBOSE_SYMBOLS => 0b01;
+Readonly::Scalar my $VERBOSE_LINES   => 0b10;
 
 main();
 
@@ -31,21 +35,36 @@ sub main() {
     # {
     #   browser1 => {
     #     ver => VERSION,
-    #     symbol1 => VERSION,
+    #     symbol1 => {
+    #       ver => VERSION,
+    #       lines => {
+    #         file1 => {
+    #           line_number1 => 1,
+    #           ...
+    #         },
+    #         ...
+    #       }
+    #     },
     #     ...
     #   },
     #   ...
     # }
     my $min_ver = create_min_ver_hash($map);
 
+    my ($file, $line_number) = ('', 0);
     while (my $line = <<>>) {
+        update_file_and_line_number(\$file, \$line_number);
+
         for my $word (words($line)) {
             next unless exists $map->{$word};
 
             for my $browser (keys %{ $map->{$word} }) {
                 my $support = $map->{$word}->{$browser};
-                $min_ver->{$browser}->{$word} = $support
-                    if $options{verbose};
+
+                $min_ver->{$browser}->{$word}->{ver} = $support
+                    if $options{verbose} & $VERBOSE_SYMBOLS;
+                $min_ver->{$browser}->{$word}->{lines}->{$file}->{$line_number} = 1
+                    if $options{verbose} & $VERBOSE_LINES;
 
                 my $current_ver = $min_ver->{$browser}->{ver};
                 next if $current_ver eq $NO;
@@ -65,20 +84,26 @@ sub main() {
 }
 
 sub get_options() {
-    my (%options, $help, $version);
+    my (%options, $help, $version) = ((verbose => 0));
     GetOptions(
         'b|browsers=s' => \$options{browsers},
         'h|help' => \$help,
         'l|list-browsers' => \$options{'list-browsers'},
         'm|map=s' => \$options{'map-file'},
-        'v|verbose' => \$options{verbose},
+        'v|verbose+' => \$options{verbose},
         'V|version' => \$version,
     ) || exit 1;
+
+    $options{verbose} = verbose2bitfield($options{verbose});
 
     print_usage_and_exit() if $help;
     print_version_and_exit() if $version;
 
     return %options;
+}
+
+sub verbose2bitfield($verbosity) {
+    return oct('0b'. (1 x $verbosity));
 }
 
 sub print_usage_and_exit() {
@@ -94,7 +119,8 @@ options:
   -l, --list-browsers         List all supported browsers and exit
   -m, --map FILE              Symbol version lookup table file. Defaults to
                               $DEFAULT_MAP_FILE
-  -v, --verbose               Print symbols and their versions
+  -v, --verbose               Print symbols and their versions. More verbose prints lines where
+                              the symbols are in FILEs
   -V, --version               Print version and exit
 HELP
 
@@ -119,10 +145,10 @@ sub get_supported_browsers($map) {
 
 sub get_map($file) {
     open my $fh, '<', $file or die $!;
-    undef $/;
+    local $INPUT_RECORD_SEPARATOR = undef;
     my $map = <$fh>;
     $map =~ s/^\$VAR1 =//;
-    
+
     return eval $map;
 }
 
@@ -150,6 +176,17 @@ sub create_min_ver_hash($map) {
     return $min_ver;
 }
 
+sub update_file_and_line_number($file, $line_number) {
+    my $new_file = abs_path($ARGV);
+    if (!$$file || $$file ne $new_file) {
+        $$line_number = 1;
+        $$file = $new_file;
+    }
+    else {
+        $$line_number++;
+    }
+}
+
 sub words($line) {
     my @symbols;
 
@@ -171,7 +208,7 @@ sub print_result($min_ver, $verbose) {
         my $indent = $longest_browser - length($browser) + 8;
         printf "$browser%${indent}s\n", $min_ver->{$browser}->{ver};
 
-        if ($verbose) {
+        if ($verbose & $VERBOSE_SYMBOLS) {
             my @symbols = sort keys %{ $min_ver->{$browser} };
             my $longest_symbol = find_longest_str(@symbols);
 
@@ -179,7 +216,20 @@ sub print_result($min_ver, $verbose) {
                 next if $symbol eq 'ver';
 
                 my $indent = $longest_symbol - length($symbol) + 8;
-                printf "    $symbol%${indent}s\n", $min_ver->{$browser}->{$symbol};
+                printf ' ' x 4 . "$symbol%${indent}s\n",
+                    $min_ver->{$browser}->{$symbol}->{ver};
+
+                if ($verbose & $VERBOSE_LINES) {
+                    my @files = sort keys %{ $min_ver->{$browser}->{$symbol}->{lines} };
+                    my $longest_file = find_longest_str(@files);
+
+                    for my $file (@files) {
+                        my $line_numbers = join(', ',
+                            sort { $a <=> $b } keys %{ $min_ver->{$browser}->{$symbol}->{lines}->{$file} });
+                        my $indent = $longest_file - length($file) + length($line_numbers) + 4;
+                        printf ' ' x 8 . "$file%${indent}s\n", $line_numbers;
+                    }
+                }
             }
         }
     }
