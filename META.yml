@@ -1,0 +1,23 @@
+---
+abstract: 'A script for finding out minimum version needed for a browser extension.'
+author:
+  - 'fluks <fluks.github@gmail.com>'
+build_requires: {}
+configure_requires:
+  Module::Build: '0'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4224, CPAN::Meta::Converter version 2.150010'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Browser-Extension-MinVer
+requires:
+  File::ShareDir: '1.00'
+  Mojo::UserAgent: '0'
+  Readonly: '0'
+  perl: v5.22.0
+resources:
+  license: http://www.gnu.org/licenses/gpl-3.0.txt
+version: v0.1.0
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

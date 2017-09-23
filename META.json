@@ -1,0 +1,39 @@
+{
+   "abstract" : "A script for finding out minimum version needed for a browser extension.",
+   "author" : [
+      "fluks <fluks.github@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4224",
+   "license" : [
+      "gpl_3"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Browser-Extension-MinVer",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.00",
+            "Mojo::UserAgent" : "0",
+            "Readonly" : "0",
+            "perl" : "v5.22.0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "license" : [
+         "http://www.gnu.org/licenses/gpl-3.0.txt"
+      ]
+   },
+   "version" : "v0.1.0",
+   "x_serialization_backend" : "JSON::PP version 2.27300_01"
+}

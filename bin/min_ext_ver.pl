@@ -12,9 +12,11 @@ use File::Basename;
 use File::Find;
 use English;
 use Cwd qw(abs_path);
+use File::ShareDir qw(dist_file);
 
 Readonly::Scalar my $VERSION => '0.1.0';
-Readonly::Scalar my $DEFAULT_MAP_FILE => 'extension_compatibility_table.txt';
+Readonly::Scalar my $DEFAULT_MAP_FILE =>
+    dist_file('Browser-Extension-MinVer', 'extension_compatibility_table.txt');
 Readonly::Scalar my $YES => 'Yes';
 Readonly::Scalar my $NO => 'No';
 Readonly::Scalar my $VERBOSE_SYMBOLS => 0b01;
