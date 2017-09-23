@@ -12,7 +12,6 @@ use File::Basename;
 use File::Find;
 use English;
 use Cwd qw(abs_path);
-use Data::Dumper;
 
 Readonly::Scalar my $VERSION => '0.1.0';
 Readonly::Scalar my $DEFAULT_MAP_FILE => 'extension_compatibility_table.txt';
@@ -30,6 +29,11 @@ sub main() {
     my $map = get_map($map_file);
 
     print_supported_browsers_and_exit($map) if $options{'list-browsers'};
+
+    $options{browsers} = [ $options{browsers} ?
+        parse_browsers_option($options{browsers}, $map) :
+        get_supported_browsers($map)
+    ];
 
     push @ARGV, find_js_files();
 
@@ -64,7 +68,7 @@ sub main() {
         }
     }
 
-    print_result($min_ver, $options{verbose});
+    print_result($min_ver, $options{verbose}, @{ $options{browsers} });
 }
 
 sub get_options() {
@@ -86,6 +90,27 @@ sub get_options() {
     return %options;
 }
 
+sub parse_browsers_option($argument, $map) {
+    my @args = split ',', $argument;
+    my @supported_browsers = get_supported_browsers($map);
+
+    my %browsers;
+    for my $arg (@args) {
+        my @b = grep { /$arg/i } @supported_browsers;
+        if (@b > 1) {
+            my @equals = grep { /^$arg$/i } @b;
+            @b = $equals[0] if @equals == 1;
+        }
+
+        die "Browser argument '$arg' doesn't match any browser" if !@b;
+        die "Browser argument '$arg' is unambiguous" if @b > 1;
+
+        $browsers{$b[0]} = 1;
+    }
+
+    return sort keys %browsers;
+}
+
 sub verbose2bitfield($verbosity) {
     return oct('0b'. (1 x $verbosity));
 }
@@ -97,8 +122,9 @@ $program $VERSION
 usage: $program [OPTIONS ...] FILE ...
 
 options:
-  -b, --browsers BROWSER ...  Find the minimum version of these browsers only.
-                              Defaults to all supported browsers
+  -b, --browsers BROWSER,...  Find the minimum version of these browsers only. Only part of the
+                              browser's name is required, as long as it's unambiguous. Separate
+                              by commas. Defaults to all supported browsers
   -h, --help                  Print this help and exit
   -l, --list-browsers         List all supported browsers and exit
   -m, --map FILE              Symbol version lookup table file. Defaults to
@@ -201,8 +227,7 @@ sub words($line) {
     return @symbols if @symbols;
 }
 
-sub print_result($min_ver, $verbose) {
-    my @browsers = sort keys %$min_ver;
+sub print_result($min_ver, $verbose, @browsers) {
     my $longest_browser = find_longest_str(@browsers);
 
     for my $browser (@browsers) {
