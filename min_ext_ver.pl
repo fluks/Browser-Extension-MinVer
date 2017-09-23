@@ -1,6 +1,9 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+use feature qw(say signatures);
+no warnings 'experimental::signatures';
+
 use Scalar::Util qw(looks_like_number);
 use Readonly;
 use List::Util qw(reduce);
@@ -10,8 +13,6 @@ use File::Find;
 use English;
 use Cwd qw(abs_path);
 use Data::Dumper;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
 
 Readonly::Scalar my $VERSION => '0.1.0';
 Readonly::Scalar my $DEFAULT_MAP_FILE => 'extension_compatibility_table.txt';
@@ -32,23 +33,6 @@ sub main() {
 
     push @ARGV, find_js_files();
 
-    # {
-    #   browser1 => {
-    #     ver => VERSION,
-    #     symbol1 => {
-    #       ver => VERSION,
-    #       lines => {
-    #         file1 => {
-    #           line_number1 => 1,
-    #           ...
-    #         },
-    #         ...
-    #       }
-    #     },
-    #     ...
-    #   },
-    #   ...
-    # }
     my $min_ver = create_min_ver_hash($map);
 
     my ($file, $line_number) = ('', 0);
@@ -165,6 +149,23 @@ sub find_js_files() {
     return @js;
 }
 
+# {
+#   browser1 => {
+#     ver => VERSION,
+#     symbol1 => {
+#       ver => VERSION,
+#       lines => {
+#         file1 => {
+#           line_number1 => 1,
+#           ...
+#         },
+#         ...
+#       }
+#     },
+#     ...
+#   },
+#   ...
+# }
 sub create_min_ver_hash($map) {
     my $min_ver = {};
 
