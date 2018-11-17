@@ -29,7 +29,7 @@ browser extension strings from the extension's JavaScript files.
     min_ext_ver.pl -v extension_src_dir
 
     # Print also files and lines where the API is used.
-    min_ext_ver.pl -v extension_src_dir
+    min_ext_ver.pl -vv extension_src_dir
 
     # Find version from the file for only Firefox and Chrome.
     min_ext_ver.pl -b firefox,chr content_script.js
