@@ -11,8 +11,10 @@ browser extension strings from the extension's JavaScript files.
     perl >= 5.22
     Module::Build
     Readonly
-    Mojo::UserAgent
     File::ShareDir
+
+You need browser compatibility data from
+[browser-compat-data](https://github.com/mdn/browser-compat-data/) repository.
 
 ## Install
 
@@ -34,8 +36,9 @@ browser extension strings from the extension's JavaScript files.
     # Find version from the file for only Firefox and Chrome.
     min_ext_ver.pl -b firefox,chr content_script.js
 
-    # Get and parse browser extension compatibility table.
-    parse_compatibility_table.pl > extension_compatibility_table.txt
+    # For updating the browser compatibility data.
+    # First clone https://github.com/mdn/browser-compat-data/
+    parse_compatibility_table.pl PATH_TO_CLONED_REPO/webextensions/api/ > extension_compatibility_table.txt
     # Copy it to where the previous version was installed.
     sudo cp extension_compatibility_table.txt /usr/local/share/.../
 
@@ -51,3 +54,5 @@ detected.
 `chrome.storage.    local.    set(...)`, think newlines.
 
 * If part of an API is stored in a variable and it's called using that variable.
+
+* Parameters to functions aren't checked whether they are supported.
