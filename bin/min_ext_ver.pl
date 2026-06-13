@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use feature qw(say signatures);
 no warnings 'experimental::signatures';
+use open qw/:std :encoding(UTF-8)/;
+use feature 'unicode_strings';
 
 use Scalar::Util qw(looks_like_number);
 use Readonly;
