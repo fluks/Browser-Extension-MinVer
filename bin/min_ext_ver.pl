@@ -57,7 +57,7 @@ sub main() {
                     if $options{verbose} & $VERBOSE_LINES;
 
                 my $current_ver = $min_ver->{$browser}->{ver};
-                next if $current_ver eq $NO;
+                next if defined $current_ver && $current_ver eq $NO;
 
                 if (looks_like_number($support)) {
                     $min_ver->{$browser}->{ver} = $support

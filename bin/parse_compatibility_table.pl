@@ -63,7 +63,7 @@ sub find_symbols {
                         }
                     }
                 }
-                else {
+                elsif (ref $brow_json) {
                     $obj->{$s}->{$brow} =
                         version_to_value($brow_json->{version_added});
                 }
